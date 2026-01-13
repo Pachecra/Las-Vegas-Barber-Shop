@@ -24,12 +24,12 @@ export const Hero: React.FC = () => {
           Heidelberg • Est. Premium
         </span>
         
-        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-white mb-8 leading-tight drop-shadow-2xl">
+        <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white mb-6 md:mb-8 leading-tight drop-shadow-2xl">
           Handwerk. <br/>
           <span className="text-royal-500 bg-clip-text text-transparent bg-gradient-to-r from-royal-400 to-royal-600">Charakter.</span> Stil.
         </h1>
         
-        <p className="font-sans text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed font-light">
+        <p className="font-sans text-gray-300 text-base md:text-xl max-w-2xl mx-auto mb-8 md:mb-12 leading-relaxed font-light">
           Schluss mit Massenabfertigung. Im Las Vegas Barber Shop erleben Sie klassischen Service, 
           der Ihren Anspruch an Qualität und Ruhe respektiert.
         </p>

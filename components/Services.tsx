@@ -3,11 +3,11 @@ import { SERVICES } from '../constants';
 
 export const Services: React.FC = () => {
   return (
-    <section className="py-24 bg-midnight-900 relative">
+    <section className="py-16 md:py-24 bg-midnight-900 relative">
       <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-midnight-950/20 to-transparent pointer-events-none"></div>
-      
+
       <div className="container mx-auto px-4 max-w-5xl relative z-10 reveal">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 md:mb-16 gap-6">
           <div>
             <span className="text-royal-500 text-xs font-bold tracking-widest uppercase mb-2 block">Unser Angebot</span>
             <h2 className="font-serif text-4xl text-white">Leistungen</h2>
@@ -29,9 +29,9 @@ export const Services: React.FC = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-12 text-center">
-            <p className="text-xs text-gray-500 uppercase tracking-widest opacity-60">Preise fair & transparent vor Ort</p>
+          <p className="text-xs text-gray-500 uppercase tracking-widest opacity-60">Preise fair & transparent vor Ort</p>
         </div>
       </div>
     </section>

@@ -3,9 +3,9 @@ import { REASONS } from '../constants';
 
 export const Features: React.FC = () => {
   return (
-    <section className="py-24 bg-midnight-950 border-y border-midnight-900">
+    <section className="py-16 md:py-24 bg-midnight-950 border-y border-midnight-900">
       <div className="container mx-auto px-4 reveal">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <h2 className="font-serif text-3xl md:text-5xl text-white mb-4">Warum Las Vegas Barber Shop?</h2>
           <p className="text-gray-400 max-w-xl mx-auto">
             Qualität ist kein Zufall, sondern das Ergebnis von Erfahrung und Einstellung.

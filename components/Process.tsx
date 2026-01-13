@@ -3,9 +3,9 @@ import { PROCESS } from '../constants';
 
 export const Process: React.FC = () => {
   return (
-    <section className="py-24 bg-midnight-950">
+    <section className="py-16 md:py-24 bg-midnight-950">
       <div className="container mx-auto px-4 reveal">
-        <div className="text-center mb-20">
+        <div className="text-center mb-12 md:mb-20">
           <h2 className="font-serif text-3xl md:text-4xl text-white">So einfach läuft es ab</h2>
         </div>
 
